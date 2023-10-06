@@ -25,6 +25,33 @@
 
 The Library Management System is a backend application developed in Node.js for managing books in a library. It includes features for user registration, authentication, book management, borrowing and returning books, search functionality, and a simple recommendation system.
 
+### Folder structure
+
+```
+LMS-backend/
+│
+├── routes/
+│   ├── auth.js
+│   ├── books.js
+│   ├── borrow.js
+│   ├── search.js
+│   ├── return.js
+│   ├── recommendation.js
+│   └── users.js
+│
+├── models/
+│   ├── User.js
+│   ├── Book.js
+│   └── BorrowedBook.js
+│
+├── config/
+│   └── database.js
+│
+├── index.js
+├── package.json
+├── README.md
+```
+
 ### Installation
 
 #### Prerequisites
